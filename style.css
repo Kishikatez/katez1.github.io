@@ -1,0 +1,92 @@
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    align-content: center;
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  .container {
+      align-content: center;
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 0 20px;
+  }
+  
+ h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+.q1 {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 50px;
+ 
+}
+
+.q1:hover {
+ background-color: green;
+}
+#message{
+  width: auto;
+}
+
+  #confetti-canvas{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+  }
+  
+  .yes {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .yes:hover{
+    background-color: red;
+  }
+  .no{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .no:hover{
+    background-color: green;
+  }
+  @media (max-width: 768px) {
+    body {
+      padding-top: 50px;
+    }
+  
+    h1 {
+      font-size: 23px;
+      margin-bottom: 10px;
+    }
+  
+  }
